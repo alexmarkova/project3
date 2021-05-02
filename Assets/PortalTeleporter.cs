@@ -31,21 +31,21 @@ public class PortalTeleporter : MonoBehaviour
 
                 playerIsOverlapping = false;
 
-            }
+            } 
         }
     }
 
      void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player" )
+        if (other.tag == "MainCamera")
         {
             playerIsOverlapping = true;
 
-        }
+        }  
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "MainCamera")
         {
             playerIsOverlapping = false; 
         }
