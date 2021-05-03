@@ -5,18 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/World1_AR.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
-    path: Assets/Scenes/3_world1_AR_5.unity
-    guid: 9d4d105a5cd6449e0be7d0af31606296
-  - enabled: 0
-    path: Assets/Scenes/FINALS/comboWorld/5_comboWorld.unity
-    guid: b8d4e107f2eeb49e0826995cd63821b1
   - enabled: 1
-    path: Assets/Scenes/FINALS/comboWorld/6_comboWorld.unity
-    guid: b6272397e6ebf4fe29d8d6a100848476
+    path: Assets/Scenes/FINALS/comboWorld/9_comboWorld_OG.unity
+    guid: 8df18856752ce4f5cb20d1a5289ba69f
+  - enabled: 1
+    path: Assets/Scenes/FINALS/comboWorld/10_comboWorld_flipped.unity
+    guid: 6a62a45662d374f49ac3f6ad5b5f5e6e
   m_configObjects:
     com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: addf69ac5d6e7462f8443f5d0d3a7f7b,
       type: 2}
